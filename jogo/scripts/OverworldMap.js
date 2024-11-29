@@ -679,16 +679,14 @@ window.OverworldMaps = {
              [utils.asGridCoord(217.5, 21)]: [
                 {
                     events:[
-                        {who: "heroina", type: "stand", direction: "left", time: 300},
-                         {type: "textMessage", text: "Joana d'Arc: ACHEI FÁCIL"},
+                        {type:"fim"}
                      ]    
                  }
              ],
              [utils.asGridCoord(218, 21)]: [
                 {
                     events:[
-                        {who: "heroina", type: "stand", direction: "left", time: 300},
-                         {type: "textMessage", text: "Joana d'Arc: ACHEI FÁCIL"},
+                        {type:"fim"}
                      ]    
                  }
              ],

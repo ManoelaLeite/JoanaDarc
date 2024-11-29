@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000; /* Fundo preto, pode ser alterado */
+  color: #fff; /* Texto branco */
+  font-family: Arial, sans-serif;
+}
+
+.text-section {
+  flex: 1;
+  padding: 20px;
+  animation: slideUp 2s ease-out;
+}
+
+.gif-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gif-section img {
+  max-width: 300%;
+  height: auto;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.texto {
+  display: flex;
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 3rem;
+    color: gold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.715);
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: justify;
+}

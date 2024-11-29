@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Garamond', serif;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c967716f-9172-4b4a-904d-9ae7ccd8eb0b/dcjdqcx-127bcd96-8d97-4949-a588-ff56ea68f60b.png/v1/fill/w_1024,h_640,q_80,strp/tales_of_vastor___main_menu_background_by_lukasirzl_dcjdqcx-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjQwIiwicGF0aCI6IlwvZlwvYzk2NzcxNmYtOTE3Mi00YjRhLTkwNGQtOWFlN2NjZDhlYjBiXC9kY2pkcWN4LTEyN2JjZDk2LThkOTctNDk0OS1hNTg4LWZmNTZlYTY4ZjYwYi5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.u2iucS6-ZjAoEhgR29DGDoUpzkr7vqgImYKQKmiKhsY');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MenuPrincipal {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    width: 600px;
+}
+
+.MenuPrincipal h1 {
+    font-size: 3rem;
+    color: gold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.715);
+}
+
+h2 {
+    font-size: 2rem;
+    color: rgb(237, 212, 70);
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    margin: 15px 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #343a40, #495057);
+    transition: all 0.3s ease;
+}
+
+.menu a:hover {
+    background: linear-gradient(45deg, #495057, #6c757d);
+    transform: scale(1.1);
+    color: gold;
+    border-color: gold;
+}

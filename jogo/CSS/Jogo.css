@@ -1,0 +1,58 @@
+:root{
+    --border-color: #291D4D;
+    --dialog-background: #FFF3B4;
+
+    --menu-background: rgba(0, 0, 0, 0.385);
+    --menu-border-color: #b58f29;
+    --menu-font-color: #cca230;
+    --menu-selected-background: #7fc2ff;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #333;
+    overflow: hidden;
+}
+
+.jogo{
+    position: relative;
+    width: 960px;
+    height: 700px;
+    outline: 1px solid white;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgb(205, 244, 244);
+    overflow: hidden;
+}
+
+.jogo canvas{
+    image-rendering: pixelated;
+    transform: scale(1.5) translateY(-30px);
+    
+}
+
+.hud-container {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    display: flex;
+    gap: 10px;
+}
+
+.hp {
+    position: relative;
+    width: 120px;
+    height: 20px;
+    background: #222;
+    border: 2px solid #555;
+    border-radius: 5px;
+}
+
+.hp rect {
+    transition: width 0.2s ease-in-out;
+}

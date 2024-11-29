@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Over</title>
+  <link rel="stylesheet" href="Css/cred.css">
+  <link rel="stylesheet" href="Css/gameover.css">
+</head>
+<body>
+  <div class="gameover-container">
+    <h1 class="title">VOCÊ MORREU</h1>
+    <p class="subtitle">A jornada de Joana terminou... mas sua fé continua viva.</p>
+    <button class="reiniciar" onclick="restartGame()">Tentar Novamente</button>
+    <button class="back-button"><a href="index.html">Voltar para a tela inicial</a></button>
+  </div>
+
+  <script>
+    function restartGame() {
+        window.location.href = "jogo/jogo.html";
+    }
+    
+    </script>
+
+  
+</body>
+</html>

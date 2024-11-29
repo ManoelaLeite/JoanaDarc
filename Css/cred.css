@@ -1,0 +1,69 @@
+
+
+.creditos {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.screen-title {
+    font-size:3rem;
+    color: gold;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    text-shadow: 2px 2px 5px black;
+    position:absolute;
+    align-self: first baseline;
+}
+
+.credits-list {
+    left:auto;
+    right:auto;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    position: absolute;
+    width: 100%;
+    animation: scrollCredits 30s linear infinite;
+    overflow: hidden;
+}
+
+@keyframes scrollCredits {
+    0% {
+        top: 100%;
+    }
+    100% {
+        top: -100%;
+    }
+}
+
+.back-button {
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #343a40, #495057);
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.back-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.back-button:hover {
+    background: linear-gradient(45deg, #495057, #6c757d);
+    border-color: gold;
+}
